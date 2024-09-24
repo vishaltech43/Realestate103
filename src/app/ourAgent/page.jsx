@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="mb-12">
       <CommonBanner
-        image={"/images/breadcrumb-agent.jpg"}
+        image={"/Images/breadcrumb-agent.jpg"}
         title={"Our Agent"}
       />
       <Agentpage />
