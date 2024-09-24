@@ -11,17 +11,18 @@ const OurWorkOverview = () => {
   return (
     <div>
       <section class=" text-gray-600 body-font py-24">
-        <div  class="container mx-auto flex  md:flex-row flex-col items-center gap-20 justify-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <Image
-              className="object-cover object-center  rounded"
-              alt="hero"
-              src="/Images/img-2.png"
-              layout="responsive" 
-              width={500} 
-              height={300} 
-            />
-          </div>
+        <div  class="mx-auto flex  md:flex-row flex-col items-center gap-20 justify-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 md:mr-auto">
+  <Image
+    className="object-cover object-center rounded ml-0"
+    alt="hero"
+    src="/Images/img-2.png"
+    layout="responsive"
+    width={500}
+    height={300}
+  />
+</div>
+
 
           <div style={sectionStyle}>
             <div class="lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center lg:py-5 sm:py-4 md:py-5 py-4  px-3">
