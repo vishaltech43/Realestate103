@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact_banner = () => {
   const sectionStyle = {
-    backgroundImage: "url('/images/address-map.jpg')",
+    backgroundImage: "url('/Images/address-map.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
   };

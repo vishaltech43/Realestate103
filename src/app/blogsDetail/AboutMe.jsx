@@ -29,14 +29,14 @@ const AboutMe = ({ name, image, desc, date }) => {
         <div className="flex gap-6 py-5">
           <div className="flex items-center gap-3">
             <div className="bg-gray-300 h-8 w-8 rounded-full flex justify-center items-center">
-              <Image src="/images/calendar (2).png" alt="" width={16} height={16} /> 
+              <Image src="/Images/calendar (2).png" alt="" width={16} height={16} /> 
             </div>
             <p className="text-gray-500">Posted by remus {date}</p>
           </div>
 
           <div className="flex items-center gap-3">
             <div className="bg-gray-300 h-8 w-8 rounded-full flex justify-center items-center">
-              <Image src="/images/comment.png" alt="" width={16} height={16} /> 
+              <Image src="/Images/comment.png" alt="" width={16} height={16} /> 
             </div>
             <p className="text-gray-500">0</p>
           </div>

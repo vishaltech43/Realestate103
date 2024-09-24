@@ -3,7 +3,7 @@ import React from "react";
 const AgentBanner = () => {
   const sectionStyle = {
     position: "relative",
-    backgroundImage: "url('/images/breadcrumb-agent.jpg')",
+    backgroundImage: "url('/Images/breadcrumb-agent.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

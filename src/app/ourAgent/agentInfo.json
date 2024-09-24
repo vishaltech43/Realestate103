@@ -8,7 +8,7 @@
         "whatsupNo":"9876543210",
         "skype":"michael.rutter",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag1.jpg",
+        "image":"/Images/ag1.jpg",
         "properties":{
             "p":"dsdf"
         }
@@ -22,7 +22,7 @@
         "whatsupNo":"9876543210",
         "skype":"michael.suri",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag2.jpg"
+        "image":"/Images/ag2.jpg"
     },
     {
         "id":"3",
@@ -32,7 +32,7 @@
         "whatsupNo":"9876543210",
         "skype":"maria.barlow",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag3.jpg"
+        "image":"/Images/ag3.jpg"
     },
     {
         "id":"4",
@@ -42,7 +42,7 @@
         "whatsupNo":"9876543210",
         "skype":"melvin.blackwell",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag4.jpg"
+        "image":"/Images/ag4.jpg"
     },
     {
         "id":"5",
@@ -52,7 +52,7 @@
         "whatsupNo":"9876543210",
         "skype":"janet.richmond",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag5.jpg"
+        "image":"/Images/ag5.jpg"
     },
     {
         "id":"6",
@@ -62,7 +62,7 @@
         "whatsupNo":"9876543210",
         "skype":"scott.goodwin",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag6.jpg"
+        "image":"/Images/ag6.jpg"
     },
     {
         "id":"7",
@@ -72,7 +72,7 @@
         "whatsupNo":"9876543210",
         "skype":"scott.goodwin",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag7.jpg"
+        "image":"/Images/ag7.jpg"
     },
     {
         "id":"8",
@@ -82,7 +82,7 @@
         "whatsupNo":"9876543210",
         "skype":"rust.cohle",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag8.jpg"
+        "image":"/Images/ag8.jpg"
     },
     {
         "id":"9",
@@ -92,7 +92,7 @@
         "whatsupNo":"9876543210",
         "skype":"erika.tillman",
         "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
-        "image":"/images/ag9.jpg"
+        "image":"/Images/ag9.jpg"
     }
     
         ]

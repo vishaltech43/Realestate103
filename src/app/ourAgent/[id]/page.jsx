@@ -18,7 +18,7 @@ const page = ({ params }) => {
   return (
     <div>
 <CommonBanner
-        image={"/images/breadcrumb-agent.jpg"}
+        image={"/Images/breadcrumb-agent.jpg"}
         title={" Agent"}
       />
       <div className="w-5/6 mx-auto border border-gray-300 p-5 rounded-3xl mt-28">
