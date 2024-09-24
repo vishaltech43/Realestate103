@@ -5,13 +5,13 @@ import Image from 'next/image';
 const PostCard = ({ id, title, date, description, imageUrl }) => {
   return (
     <div className="bg-white hover:shadow-2xl rounded-3xl overflow-hidden cursor-pointer mb-2">
-      <div className="relative h-[200px] md:h-[13rem]"> {/* Fixed height for the image container */}
+      <div className="relative h-[200px] md:h-[13rem]"> 
         <Image
           className="object-cover rounded-3xl"
           src={imageUrl}
           alt={title}
-          layout="fill" // Use layout fill for responsive images
-          objectFit="cover" // Ensures the image covers the container without stretching
+          layout="fill" 
+          objectFit="cover" 
         />
       </div>
       <div className="p-2 md:p-5 lg:p-2">

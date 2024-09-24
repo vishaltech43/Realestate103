@@ -19,7 +19,7 @@ const page = ({params}) => {
     }
   return (
     <div>
-         <CommonBanner image={'/images/breadcrumb-blogs.jpg'} title={'Blogs'}/>
+         <CommonBanner image={'/Images/breadcrumb-blogs.jpg'} title={'Blogs'}/>
       <AboutMe name={posts.title} image={posts.imageUrl} desc={posts.description} date={posts.date}/>
       <CommentForm/>
       <RelatedPost type={posts.type}/>
