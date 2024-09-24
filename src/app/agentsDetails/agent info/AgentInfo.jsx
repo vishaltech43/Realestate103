@@ -61,7 +61,7 @@ const AgentInfo = ({ id, name, type, mobileNo, whatsupNo, skype, image }) => {
                   <span className='text-black'>{skype}</span>
                 </div>
 
-                <div className='w-2/3 pt-5'>
+                <div className='md:w-2/3 w-full pt-5'>
                   <Socialicons />
                 </div>
               </div>
