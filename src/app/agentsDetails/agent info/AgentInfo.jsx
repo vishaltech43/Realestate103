@@ -5,7 +5,7 @@ import Image from 'next/image';
 const AgentInfo = ({ id, name, type, mobileNo, whatsupNo, skype, image }) => {
   console.log(name);
   return (
-    <div className='bg-[#f9faff]'>
+    <div className=''>
       <section className="text-gray-600 body-font pt-3 overflow-hidden">
         <div className="container px-3 pb-10 mx-auto">
           <div className="mx-auto flex flex-wrap">
