@@ -10,7 +10,7 @@ const GetInTouch = ({contact}) => {
       </h1>
       <div className="flex gap-4 items-center mb-6">
         <img
-          src="/images/email.png"
+          src="/Images/email.png"
           alt=""
           className="mb-4 w-7 h-7 md:w-7 md:h-8"
         />
@@ -25,7 +25,7 @@ const GetInTouch = ({contact}) => {
 
       <div className="flex gap-4 mb-6 pt-4">
         <img
-          src="/images/icons8-location-50.png"
+          src="/Images/icons8-location-50.png"
           alt=""
           className="mb-4 w-5 h-5 md:w-7 md:h-7"
         />

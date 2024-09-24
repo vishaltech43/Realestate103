@@ -48,7 +48,7 @@ const NewsLetter = ({ newsletter }) => {
           />
           <button>
             <img
-              src="/images/mailair.png"
+              src="/Images/mailair.png"
               alt="Mail icon"
               onClick={clearInput}
               className="max-h-7 w-auto"

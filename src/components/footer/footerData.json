@@ -28,11 +28,11 @@
     "social": {
       "title": "Follow Us",
       "icons": [
-        { "src": "/images/f.png", "alt": "Facebook" },
-        { "src": "/images/t.png", "alt": "Twitter" },
-        { "src": "/images/in.png", "alt": "LinkedIn" },
-        { "src": "/images/yt.png", "alt": "YouTube" },
-        { "src": "/images/g.png", "alt": "Google" }
+        { "src": "/Images/f.png", "alt": "Facebook" },
+        { "src": "/Images/t.png", "alt": "Twitter" },
+        { "src": "/Images/in.png", "alt": "LinkedIn" },
+        { "src": "/Images/yt.png", "alt": "YouTube" },
+        { "src": "/Images/g.png", "alt": "Google" }
       ]
     }
   }

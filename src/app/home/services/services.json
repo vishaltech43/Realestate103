@@ -1,16 +1,16 @@
 [
     {
-      "image": "/images/apartment.png",
+      "image": "/Images/apartment.png",
       "title": "Leasing Advisory",
       "description": "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     },
     {
-      "image": "/images/consultant.png",
+      "image": "/Images/consultant.png",
       "title": "Strategy & Consulting",
       "description": "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     },
     {
-      "image": "/images/facility.png",
+      "image": "/Images/facility.png",
       "title": "Facilities Management",
       "description": "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
     }
