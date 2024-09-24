@@ -203,7 +203,7 @@ const PropertiesPage = ({ properties }) => {
           previousLabel={
             <div className="px-6 py-4 rounded-tl-2xl rounded-bl-2xl border text-[#1c1c82] border-gray-400">
               <img
-                src="./images/icons8-arrow-50.png"
+                src="./Images/icons8-arrow-50.png"
                 alt="Previous"
                 className="h-6 w-6 rotate-180"
               />
@@ -212,7 +212,7 @@ const PropertiesPage = ({ properties }) => {
           nextLabel={
             <div className="px-6 py-4 border rounded-tr-2xl rounded-br-2xl text-[#1c1c82] border-gray-400">
               <img
-                src="./images/icons8-arrow-50.png"
+                src="./Images/icons8-arrow-50.png"
                 alt="Next"
                 className="h-6 w-6"
               />
