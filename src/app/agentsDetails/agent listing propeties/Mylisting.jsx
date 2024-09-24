@@ -6,35 +6,6 @@ const Mylisting = ({name}) => {
   const propertylist=agentProperties.properties.filter((property)=>property.agent.name==name)
   console.log(propertylist)
 
-    const properties = [
-      {
-        image: '/images/house-4.jpg',
-        price: '7,899',
-        title: 'Wonderful View House',
-        address: '79, North Velly, NJ, USA',
-        beds: '4',
-        baths: '4',
-        sqft: '500',
-      },
-      {
-        image: '/images/house-5.jpg',
-        price: '7,899',
-        title: 'Luxury Mansion',
-        address: '79, North Velly, NJ, USA',
-        beds: '4',
-        baths: '4',
-        sqft: '500',
-      },
-      {
-        image: '/images/house-6.jpg',
-        price: '7,899',
-        title: 'Modern Residence',
-        address: '79, North Velly, NJ, USA',
-        beds: '4',
-        baths: '4',
-        sqft: '500',
-      },
-    ];
   
     return (
       <section className="text-gray-600 body-font  pb-0 mx-4 sm:mx-6 md:mx-10 lg:mx-[80px] bg-[#f9faff]">
