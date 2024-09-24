@@ -14,7 +14,7 @@ const PropertyCards = ({
   featured,
 }) => {
   return (
-    <div className="container-fluid mx-auto  md:w-1/3 sm:w-full px-2 mb-3">
+    <div className="container-fluid mx-auto  md:w-1/3 sm:w-full px-1 mb-3">
       <div className="relative h-full border-2 bg-white hover:shadow-2xl border-gray-200 border-opacity-60 rounded-tr-[60px] rounded-tl-2xl overflow-hidden">
         <Link href={`/properties/${id}`} passHref legacyBehavior>
           <a className="block">
@@ -28,7 +28,7 @@ const PropertyCards = ({
                 Featured
               </div>
             )}
-            <div className="p-4 md:p-6">
+            <div className="p-2 md:p-6">
               <h2 className="tracking-widest title-font font-medium text-gray-650 mb-1">
                 <span
                   className={`bg-${category === "sales" ? "blue-800" : "sky-500"} text-white text-[13px] px-5 py-1 rounded-lg mr-2`}
@@ -40,7 +40,7 @@ const PropertyCards = ({
               <h1 className="title-font text-[20px] md:text-[23px] font-medium text-blue-900 mb-3">
                 {title}
               </h1>
-              <div className="leading-relaxed mb-3 flex text-black text-[13px]">
+              <div className="leading-relaxed mb-3 flex text-black text-[12px]">
                 <svg
                   width="20px"
                   height="20px"
@@ -59,7 +59,7 @@ const PropertyCards = ({
                 <span className="pb-3 ml-2">{address}</span>
               </div>
               <hr />
-              <div className="flex items-center flex-wrap pt-4 space-x-2">
+              <div className="flex items-center flex-wrap pt-4 space-x-1">
                 <div className="flex items-center">
                   <img
                     src="/Images/bed.png"

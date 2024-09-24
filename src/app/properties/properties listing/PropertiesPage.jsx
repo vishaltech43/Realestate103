@@ -74,13 +74,16 @@ const PropertiesPage = ({ properties }) => {
   );
 
   return (
-    <div className="container mx-auto pt-6 pb-6 bg-gray-100 px-4 sm:px-8">
+    <div className="container mx-auto">
+
+
+    <div className=" pt-6 pb-6 bg-gray-100 ">
       <h1 className="font-bold text-4xl font-serif mt-20 mx-4 sm:mx-20">
         All Properties
       </h1>
 
-      <div className="bg-white mx-4 sm:mx-8 lg:mx-20 rounded-2xl border mt-8 mb-8 border-gray-400">
-        <div className="flex flex-wrap p-4 w-full md:w-3/5">
+      <div className="bg-white mx-2 sm:mx-3 lg:mx-12 rounded-2xl border mt-8 mb-8 border-gray-400">
+        <div className="flex flex-wrap p-2 w-full md:w-3/5">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/6 mb-4 sm:mb-0">
             <select
               style={noBorderOnFocusStyle}
@@ -164,7 +167,7 @@ const PropertiesPage = ({ properties }) => {
         </div>
       </div>
 
-      <div className="flex flex-wrap -m-4 mx-2 sm:mx-10 md:mx-[60px] mt-5">
+      <div className="flex flex-wrap -m-4 mx-2 sm:mx-10 md:mx-[1rem] mt-5">
         {currentProperties.length > 0 ? (
           currentProperties.map((property) => (
             <PropertyCards
@@ -217,7 +220,7 @@ const PropertiesPage = ({ properties }) => {
           }
         />
       )}
-    </div>
+    </div>    </div>
   );
 };
 

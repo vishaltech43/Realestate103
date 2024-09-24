@@ -4,7 +4,7 @@ import basicDetail  from './BasicDetail.json'
 const BasicDetails = () => {
   return (
     <section class=" text-gray-600 body-font bg-gray-100  overflow-hidden mb-[70px ] ">
-      <div class="container px-[112px] py-24  mx-auto mt-20">
+      <div class="container  py-24  mx-auto mt-20">
         <div class="lg:w-4/5 mx-auto scale-125 flex flex-wrap">
           <img
             alt="home"

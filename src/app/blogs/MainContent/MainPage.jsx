@@ -13,7 +13,7 @@ const MainPage = () => {
 
   return (
     <div>
-        <div className="mx-auto flex flex-col lg:flex-row gap-6 px-5 md:px-[70px]">
+        <div className="mx-auto flex flex-col lg:flex-row gap-6 px-5 ">
         <BlogList  searchedBlog={searchedBlog}/>
         <Sidebar searchedBlogs={searchedBlogs}/>
         </div>
