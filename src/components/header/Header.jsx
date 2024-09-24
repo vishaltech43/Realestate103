@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <header className="relative z-50 text-gray-600  body-font md:px-12 py-2 mx-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center px-12">
-        <div className="flex gap-40">
+        <div className="flex flex justify-between gap-[12rem]">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img src={navLogo.logo} alt="logo" className="h-6" />
         </a>
