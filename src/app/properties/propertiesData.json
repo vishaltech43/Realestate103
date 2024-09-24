@@ -11,7 +11,7 @@
             "agent": {
                 "name": "Michael Rutter",
                 "shortDescription": "Top-tier agent specializing in high-end properties in NYC.",
-                "image": "/images/a-1.jpg"
+                "image": "/Images/a-1.jpg"
             },
             "amenitiesList": [
                 [
@@ -57,7 +57,7 @@
             "agent": {
                 "name": "Michael Suri",
                 "shortDescription": "Expert in rental properties with a focus on LA’s vibrant neighborhoods.",
-                "image": "/images/a-2.jpg"
+                "image": "/Images/a-2.jpg"
             },
             "amenitiesList": [
                 [
@@ -103,7 +103,7 @@
             "agent": {
                 "name": "Maria Barlow",
                 "shortDescription": "Luxury property specialist with a keen eye for detail in Chicago.",
-                "image": "/images/a-3.jpg"
+                "image": "/Images/a-3.jpg"
             },
             "amenitiesList": [
                 [
@@ -148,7 +148,7 @@
             "agent": {
                 "name": "Melvin Blackwell",
                 "shortDescription": "Passionate about finding the perfect home for every client in SF.",
-                "image": "/images/a-5.jpg"
+                "image": "/Images/a-5.jpg"
             },
             "amenitiesList": [
                 [
@@ -189,7 +189,7 @@
             "agent": {
                 "name": "Maria Barlow",
                 "shortDescription": "Specialist in waterfront properties with a deep understanding of Miami’s market.",
-                "image": "/images/a-4.jpg"
+                "image": "/Images/a-4.jpg"
             },
             "amenitiesList": [
                 [
@@ -234,7 +234,7 @@
             "agent": {
                 "name": "Scott Goodwin",
                 "shortDescription": "Specializes in modern and rental properties in the Austin area.",
-                "image": "/images/a-7.jpg"
+                "image": "/Images/a-7.jpg"
             },
             "amenitiesList": [
                 [
@@ -278,7 +278,7 @@
             "agent": {
                 "name": "Alayna Becker",
                 "shortDescription": "NYC rental expert with a knack for finding beautiful apartments.",
-                "image": "/images/a-8.jpg"
+                "image": "/Images/a-8.jpg"
             },
             "amenitiesList": [
                 [
@@ -321,7 +321,7 @@
             "agent": {
                 "name": "Rust Cohle",
                 "shortDescription": "London real estate agent with expertise in prime locations.",
-                "image": "/images/a-9.jpg"
+                "image": "/Images/a-9.jpg"
             },
             "amenitiesList": [
                 [
@@ -364,7 +364,7 @@
             "agent": {
                 "name": "Erika Tillman",
                 "shortDescription": "LA luxury market specialist with a passion for unique properties.",
-                "image": "/images/a-1.jpg"
+                "image": "/Images/a-1.jpg"
             },
             "amenitiesList": [
                 [
@@ -404,7 +404,7 @@
             "agent": {
                 "name": "Michael Rutter",
                 "shortDescription": "Specializes in high-end apartments in London’s most exclusive areas.",
-                "image": "/images/a-2.jpg"
+                "image": "/Images/a-2.jpg"
             },
             "amenitiesList": [
                 [
@@ -448,7 +448,7 @@
             "agent": {
                 "name": "Michael Rutter",
                 "shortDescription": "SF real estate expert with a focus on modern luxury homes.",
-                "image": "/images/a-3.jpg",
+                "image": "/Images/a-3.jpg",
             "neighborhood":"suburban",
             "state":"Texas"
             },
