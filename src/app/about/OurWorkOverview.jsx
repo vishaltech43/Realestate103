@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const OurWorkOverview = () => {
   const sectionStyle = {
-    backgroundImage: 'url("/images/img-3.png")',
+    backgroundImage: 'url("/Images/img-3.png")',
 
     backgroundRepeat: "no-repeat",
     overflow: "hidden",
@@ -16,7 +16,7 @@ const OurWorkOverview = () => {
           <Image
               className="object-cover object-center  rounded"
               alt="hero"
-              src="/images/img-2.png"
+              src="/Images/img-2.png"
               layout="responsive" 
               width={500} 
               height={300} 

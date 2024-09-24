@@ -10,7 +10,7 @@ const Work_values = () => {
             <Image 
               alt="ecommerce" 
               className="lg:w-2/3 w-full object-cover object-center rounded" 
-              src="/images/img-1.png" 
+              src="/Images/img-1.png" 
               width={800} 
               height={600} 
             />

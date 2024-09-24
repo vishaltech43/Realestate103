@@ -8,7 +8,7 @@ import CommonBanner from '../../components/CommonBanner';
 const page = () => {
   return (
     <div >
-      <CommonBanner image={'/images/multi-family-home-1026481_1920.jpg'} title={'About'}/>
+      <CommonBanner image={'/Images/multi-family-home-1026481_1920.jpg'} title={'About'}/>
       <Work_values/>
       <OurWorkOverview/>
       <Testimonial/>

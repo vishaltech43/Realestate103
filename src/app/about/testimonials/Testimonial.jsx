@@ -25,7 +25,7 @@ const Testimonial = () => {
     };
 
     const sectionStyle = {
-        backgroundImage: "url('/images/img-4.png')",
+        backgroundImage: "url('/Images/img-4.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
     };
@@ -50,7 +50,7 @@ const Testimonial = () => {
                                                 <a className="inline-flex items-center">
                                                     <Image 
                                                         alt="testimonial"
-                                                        src="/images/client-1.png" 
+                                                        src="/Images/client-1.png" 
                                                         className="w-[25%] shadow-2xl h-[50%] rounded-full flex-shrink-0 object-cover object-center"
                                                         width={100}
                                                         height={100} 
@@ -67,7 +67,7 @@ const Testimonial = () => {
                                                 <a className="inline-flex items-center">
                                                     <Image 
                                                         alt="testimonial"
-                                                        src="/images/client-2.png" 
+                                                        src="/Images/client-2.png" 
                                                         className="w-[26%] h-[52%] rounded-full flex-shrink-0 object-cover object-center"
                                                         width={100} 
                                                         height={100} 
@@ -83,7 +83,7 @@ const Testimonial = () => {
                                     <div className='flex pb-3 gap-3'>
                                         <button className="flex ml-auto text-gray border-0 py-2 px-4 bg-gray-200 focus:outline-none hover:bg-gray-400 rounded-full" onClick={change2}>
                                             <Image 
-                                                src="/images/white-arrow.png" 
+                                                src="/Images/white-arrow.png" 
                                                 alt="" 
                                                 className="h-9 rotate-180 w-6" 
                                                 width={24} 
@@ -92,7 +92,7 @@ const Testimonial = () => {
                                         </button>
                                         <button className="flex text-gray border-0 py-2 px-4 bg-blue-900 focus:outline-none hover:bg-gray-200 rounded-full" onClick={change1}>
                                             <Image 
-                                                src="/images/white-arrow.png" 
+                                                src="/Images/white-arrow.png" 
                                                 alt="" 
                                                 className="h-9 w-6" 
                                                 width={24} 

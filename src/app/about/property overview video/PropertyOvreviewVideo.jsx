@@ -7,7 +7,7 @@ const Video = () => {
     const [showVideo, setShowVideo] = useState(false);
 
     const sectionStyle = {
-        backgroundImage: "url('/images/img-6.png')",
+        backgroundImage: "url('/Images/img-6.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         display: "flex",
@@ -17,7 +17,7 @@ const Video = () => {
     };
 
     const sectionStyle2 = {
-        backgroundImage: "url('/images/9.jpg')",
+        backgroundImage: "url('/Images/9.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: 'relative',
@@ -58,7 +58,7 @@ const Video = () => {
                         {!showVideo ? (
                             <div className='flex items-center justify-center h-full w-full absolute top-0 left-0 cursor-pointer' onClick={() => setShowVideo(true)}>
                                 <Image
-                                    src='/images/play (1).png'
+                                    src='/Images/play (1).png'
                                     alt="play"
                                     className='h-[60px] md:h-[80px]'
                                     width={80} 
