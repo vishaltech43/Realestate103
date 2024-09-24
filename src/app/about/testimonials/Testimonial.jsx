@@ -63,7 +63,7 @@ const Testimonial = () => {
                                             </div>
                                         ) : (
                                             <div>
-                                                <p className="leading-relaxed mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni porro laborum reprehenderit temporibus maiores. Ipsa inventore, harum illo in accusantium nihil id odio rem omnis voluptates optio impedit nemo est.</p>
+                                                <p className="leading-relaxed mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni porro laborum reprehenderit temporibus maiores. Ipsa inventore, harum illo in accusantium nihil id odio rem omnis voluptates optio impedit </p>
                                                 <a className="inline-flex items-center">
                                                     <Image 
                                                         alt="testimonial"
