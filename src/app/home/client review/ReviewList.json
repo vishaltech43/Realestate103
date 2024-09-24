@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Layla",
+    "image": "/Images/client-1.png",
+    "review": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh."
+  },
+  {
+    "id": "2",
+    "name": "Maria Lee",
+    "image": "/Images/client-2.png",
+    "review": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh."
+  },
+  {
+    "id": "3",
+    "name": "Robert",
+    "image": "/Images/client-3.png",
+    "review": "Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh."
+  }
+]

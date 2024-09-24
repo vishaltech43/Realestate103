@@ -1,0 +1,12 @@
+
+.slideIn {
+    transform: translateX(0%);
+}
+
+.slideOut {
+    transform: translateX(-100%);
+}
+
+.transition-transform {
+    transition: transform 0.7s ease-in-out;
+}

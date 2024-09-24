@@ -1,0 +1,39 @@
+{
+    "contact": {
+      "title": "Get in Touch",
+      "email": [
+        "help@domain.com",
+        "info@domain.com"
+      ],
+      "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        { "label": "Home", "url": "/home" },
+        { "label": "About", "url": "/about" },
+        { "label": "Properties", "url": "/properties" },
+        { "label": "Our Agents", "url": "/ourAgent" },
+        { "label": "Blogs", "url": "/blogs" },
+        { "label": "Contact Us", "url": "/contact_us" }
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": [
+        "lorem Ispum is a simply dummy",
+        "text of the printing and typesetting industry."
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "icons": [
+        { "src": "/images/f.png", "alt": "Facebook" },
+        { "src": "/images/t.png", "alt": "Twitter" },
+        { "src": "/images/in.png", "alt": "LinkedIn" },
+        { "src": "/images/yt.png", "alt": "YouTube" },
+        { "src": "/images/g.png", "alt": "Google" }
+      ]
+    }
+  }
+  

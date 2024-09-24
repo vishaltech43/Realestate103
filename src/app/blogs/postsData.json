@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Selling Your Home",
+    "date": "July 15, 2021",
+    "description": "Learn essential tips and strategies for selling your home quickly and at the best price. From staging to negotiations, discover how to make your property appealing to potential buyers.",
+    "imageUrl": "/images/1.jpg",
+    "type": "Selling"
+  },
+  {
+    "id": 2,
+    "title": "Real Estate Market News",
+    "date": "July 18, 2021",
+    "description": "Stay updated with the latest trends and developments in the real estate market. Get insights on current market conditions, price fluctuations, and emerging trends.",
+    "imageUrl": "/images/2.jpg",
+    "type": "Market"
+  },
+  {
+    "id": 3,
+    "title": "Buying a New Home",
+    "date": "July 20, 2021",
+    "description": "Everything you need to know about purchasing a new home. From finding the right property to understanding the buying process, get expert advice for a smooth home-buying experience.",
+    "imageUrl": "/images/3.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 4,
+    "title": "The Importance of Home Inspection",
+    "date": "July 25, 2021",
+    "description": "Discover why a home inspection is crucial before purchasing a property. Learn what inspectors look for and how an inspection can save you from future problems and unexpected costs.",
+    "imageUrl": "/images/4.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 5,
+    "title": "Top 5 Interior Design Trends",
+    "date": "July 30, 2021",
+    "description": "Explore the latest interior design trends to enhance the look and feel of your home. From color schemes to furniture styles, get inspired by the top design trends of the year.",
+    "imageUrl": "/images/5.jpg",
+    "type": "Market"
+  },
+  {
+    "id": 6,
+    "title": "Choose the Right Property for You",
+    "date": "August 2, 2021",
+    "description": "Guidance on selecting the perfect property that suits your needs and lifestyle. Learn about different types of properties, what to consider, and how to make an informed decision.",
+    "imageUrl": "/images/6.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 7,
+    "title": "Understand Property Taxes Rules",
+    "date": "August 5, 2021",
+    "description": "Get a clear understanding of property tax regulations and how they affect homeowners. Learn about tax assessments, exemptions, and how to manage your property tax obligations.",
+    "imageUrl": "/images/7.jpg",
+    "type": "Market"
+  },
+  {
+    "id": 8,
+    "title": "Home Renovation Tips",
+    "date": "August 10, 2021",
+    "description": "Practical tips for renovating your home to increase its value and appeal. From budgeting to choosing the right contractors, find out how to make your renovation project successful.",
+    "imageUrl": "/images/8.jpg",
+    "type": "Selling"
+  },
+  {
+    "id": 9,
+    "title": "Stage Your Home for Sale",
+    "date": "August 15, 2021",
+    "description": "Learn the art of staging your home to attract buyers and achieve a faster sale. Discover techniques for showcasing your home’s best features and creating an inviting atmosphere.",
+    "imageUrl": "/images/9.jpg",
+    "type": "Selling"
+  },
+  {
+    "id": 10,
+    "title": "Tips for First-Time Homebuyers",
+    "date": "August 20, 2021",
+    "description": "Essential advice for first-time homebuyers to navigate the buying process with confidence. From financing options to finding the right home, get practical tips to make your first purchase smooth.",
+    "imageUrl": "/images/1.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 11,
+    "title": "Real Estate Market",
+    "date": "August 22, 2021",
+    "description": "In-depth analysis of the current real estate market. Understand market dynamics, investment opportunities, and how economic factors influence real estate trends.",
+    "imageUrl": "/images/2.jpg",
+    "type": "Market"
+  },
+  {
+    "id": 12,
+    "title": "The Future of Real Estate",
+    "date": "August 25, 2021",
+    "description": "Explore predictions and emerging trends that will shape the future of real estate. Discover how technology, demographics, and other factors are expected to influence the market.",
+    "imageUrl": "/images/3.jpg",
+    "type": "Market"
+  },
+  {
+    "id": 13,
+    "title": "How to Finance Your Home Purchase",
+    "date": "August 28, 2021",
+    "description": "Understanding your financing options is crucial for purchasing a home. Learn about different mortgage types, how to improve your credit score, and tips for securing the best loan.",
+    "imageUrl": "/images/4.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 14,
+    "title": "Guide to Property Investment",
+    "date": "September 1, 2021",
+    "description": "A comprehensive guide to investing in real estate. Learn about different investment strategies, how to evaluate properties, and tips for maximizing your return on investment.",
+    "imageUrl": "/images/5.jpg",
+    "type": "Investing"
+  },
+  {
+    "id": 15,
+    "title": "The Benefits of a Mortgage",
+    "date": "September 5, 2021",
+    "description": "Explore the advantages of obtaining a mortgage for buying a home. Understand how mortgages work, the benefits of leveraging borrowed money, and how to choose the right mortgage for your needs.",
+    "imageUrl": "/images/6.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 16,
+    "title": "How to Sell Your Home Quickly",
+    "date": "September 10, 2021",
+    "description": "Tips and strategies to sell your home quickly. Learn how to price your property competitively, market it effectively, and make necessary improvements to attract buyers.",
+    "imageUrl": "/images/7.jpg",
+    "type": "Selling"
+  },
+  {
+    "id": 17,
+    "title": "Understanding Closing Costs",
+    "date": "September 15, 2021",
+    "description": "An overview of closing costs associated with buying or selling a home. Learn what expenses to expect, how to budget for them, and ways to potentially reduce these costs.",
+    "imageUrl": "/images/8.jpg",
+    "type": "Buying"
+  },
+  {
+    "id": 18,
+    "title": "Buying a Fixer-Upper",
+    "date": "September 20, 2021",
+    "description": "Insights into buying a fixer-upper property. Understand the pros and cons, what to look for, and how to budget for repairs and renovations to turn a fixer-upper into your dream home.",
+    "imageUrl": "/images/9.jpg",
+    "type": "Buying"
+  }
+]

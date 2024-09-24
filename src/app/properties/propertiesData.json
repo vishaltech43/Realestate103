@@ -1,0 +1,488 @@
+{
+    "properties": [ 
+        {
+            "address": {
+                "city": "New York",
+                "street": "789 Elm Street",
+                "zip": "10001",
+                "neighborhood":"downtown",
+                "state":"Florida"
+            },
+            "agent": {
+                "name": "Michael Rutter",
+                "shortDescription": "Top-tier agent specializing in high-end properties in NYC.",
+                "image": "/images/a-1.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" },
+                    { "img": "/Images/inner-pages-images/cycle.png", "text": "Disposal" },
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 5,
+            "beds": 6,
+            "category": "sales",
+            "cityName": "New York",
+            "description": "Exquisite luxury homes in the heart of New York with breathtaking views. Stylish apartments with modern amenities and stunning city views.",
+            "featured": true,
+            "id": "1",
+            "image": "/images/house-1.jpg",
+            "name": "Luxury Homes",
+            "price": 1500000,
+            "type": "commercial",
+            "squareFootage": 4500,
+             "videoLink":"https://www.youtube.com/embed/ec_fXMrD7Ow?si=x4eBKMrNmSrnFYrn",
+            "date":"June 11,2024",
+            "recent":true
+        },
+        {
+            "address": {
+                "city": "Los Angeles",
+                "street": "321 Oak Avenue",
+                "zip": "90001",
+                "neighborhood":"rural",
+                "state":"Florida"
+            },
+            "agent": {
+                "name": "Michael Suri",
+                "shortDescription": "Expert in rental properties with a focus on LA’s vibrant neighborhoods.",
+                "image": "/images/a-2.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" },
+                    { "img": "/Images/inner-pages-images/cycle.png", "text": "Disposal" },
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 2,
+            "beds": 2,
+            "category": "rentals",
+            "cityName": "Los Angeles",
+            "description": "Stylish apartments with modern amenities and stunning city views.",
+            "featured": false,
+            "id": "2",
+            "image": "/images/house-2.jpg",
+            "name": "Fabulous Apartments",
+            "price": 1100000,
+            "squareFootage": 1100,
+            "type": "commercial",
+             "videoLink":"https://www.youtube.com/embed/iL0pv2FpnqA?si=4x7ceyfZMH4fAQ5v",
+           "date":"June 8,2024",
+           "recent":true
+        },
+        {
+            "address": {
+                "city": "Chicago",
+                "street": "456 Maple Road",
+                "zip": "60601",
+            "neighborhood":"suburban",
+            "state":"Florida"
+            },
+            "agent": {
+                "name": "Maria Barlow",
+                "shortDescription": "Luxury property specialist with a keen eye for detail in Chicago.",
+                "image": "/images/a-3.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 3,
+            "beds": 3,
+            "category": "sales",
+            "cityName": "Chicago",
+            "description": "High-end apartments with premium finishes and exceptional amenities.",
+            "featured": false,
+            "id": "3",
+            "image": "/images/house-3.jpg",
+            "name": "Luxury Apartments",
+            "price": 600000,
+            "squareFootage": 2000,
+            "type": "commercial",
+             "videoLink":"https://www.youtube.com/embed/aO_kPW39um8?si=XjpbUfYURSCJuJks",
+            "date":"June 7,2024",
+            "recent":true
+        },
+        {
+            "address": {
+                "city": "San Francisco",
+                "street": "123 Birch Lane",
+                "zip": "94105",
+                "neighborhood":"rural",
+                "state":"Florida"
+            },
+            "agent": {
+                "name": "Melvin Blackwell",
+                "shortDescription": "Passionate about finding the perfect home for every client in SF.",
+                "image": "/images/a-5.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" }
+                ],
+                [
+                    
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 4,
+            "beds": 4, 
+            "category": "sales",
+            "cityName": "San Francisco",
+            "description": "Charming house with modern amenities and a beautiful garden.",
+            "featured": true,
+            "id": "4",
+            "image": "/images/house-4.jpg",
+            "name": "Wonderful House",
+            "price": 200000,
+            "squareFootage": 3200,
+            "type": "commercial",
+             "videoLink":"https://www.youtube.com/embed/mgulkcaPMCY?si=Vx8IuL4n41mCNnJf",
+        "date":"May 30,2024",
+        "recent":true
+        },
+        {
+            "address": {
+                "city": "Miami",
+                "street": "321 Ocean Drive",
+                "zip": "33139",
+            "neighborhood":"suburban",
+            "state":"Illinois"
+            },
+            "agent": {
+                "name": "Maria Barlow",
+                "shortDescription": "Specialist in waterfront properties with a deep understanding of Miami’s market.",
+                "image": "/images/a-4.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" },
+            
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 5,
+            "beds": 5,
+            "category": "sales",
+            "cityName": "Miami",
+            "description": "Luxury oceanfront villa with breathtaking views and premium amenities.",
+            "featured": false,
+            "id": "12",
+            "image": "/images/house-5.jpg",
+            "name": "Modern Apartment",
+            "price": 400000,
+            "type": "residential",
+            "squareFootage": 5500,
+             "videoLink":"https://www.youtube.com/embed/UDANRhVS4FY?si=5viH7K0pcfvGXTCC",
+             "date":"May 15,2024"
+        },
+        {
+            "address": {
+                "city": "Austin",
+                "street": "789 Sunset Blvd",
+                "zip": "73301",
+                "neighborhood":"rural",
+                "state":"Illinois"
+            },
+            "agent": {
+                "name": "Scott Goodwin",
+                "shortDescription": "Specializes in modern and rental properties in the Austin area.",
+                "image": "/images/a-7.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" },
+                    { "img": "/Images/inner-pages-images/cycle.png", "text": "Disposal" }
+                ]
+            ],
+            "baths": 2,
+            "beds": 3,
+            "category": "rentals",
+            "cityName": "Austin",
+            "description": "Contemporary residence with stylish design and functional layout.",
+            "featured": true,
+            "id": "6",
+            "image": "/images/house-6.jpg",
+            "name": "Modern Residence",
+            "price": 709900,
+            "type": "commercial",
+            "squareFootage": 1800,
+             "videoLink":"https://www.youtube.com/embed/7EHnQ0VM4KY?si=LK6t1Zy_zvvc8x1V",
+             "date":"June 25,2024"
+        },
+        {
+            "address": {
+                "city": "New York",
+                "street": "135 Central Park West",
+                "zip": "10024",
+            "neighborhood":"downtown",
+            "state":"Illinois"
+            },
+            "agent": {
+                "name": "Alayna Becker",
+                "shortDescription": "NYC rental expert with a knack for finding beautiful apartments.",
+                "image": "/images/a-8.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                   
+                ]
+            ],
+            "baths": 1,
+            "beds": 1,
+            "category": "rentals",
+            "cityName": "New York",
+            "description": "Elegant apartment with a fantastic view of Central Park.",
+            "featured": true,
+            "id": "7",
+            "image": "/images/san-francisco-210230_1920.jpg",
+            "name": "Gorgeous Apartment",
+            "price": 899000,
+            "type": "commercial",
+            "squareFootage": 800,
+            "videoLink":"https://www.youtube.com/embed/jPkBJY1KI_Q?si=jVlvKak23WEDRT21",
+           "date":"September 10,2024"
+        },
+        {
+            "address": {
+                "city": "London",
+                "street": "246 Queen Street",
+                "zip": "W1D 4DD",
+                "neighborhood":"rural",
+                "state":"Illinois"
+            },
+            "agent": {
+                "name": "Rust Cohle",
+                "shortDescription": "London real estate agent with expertise in prime locations.",
+                "image": "/images/a-9.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" }
+                ]
+            ],
+            "baths": 1,
+            "beds": 1,
+            "category": "rentals",
+            "cityName": "London",
+            "description": "Comfortable apartment with easy access to local amenities.",
+            "featured": true,
+            "id": "8",
+            "image": "/images/house-8.jpg",
+            "name": "Interior Apartment",
+            "price": 780900,
+            "type": "residential",
+            "squareFootage": 950,
+             "videoLink":"https://www.youtube.com/embed/y9j-BL5ocW8?si=gcaspobXx2Fq7g1J",
+             "date":"December 16,2024"
+        },
+        {
+            "address": {
+                "city": "Dallas",
+                "street": "North Valley, NJ",
+                "zip": "90028",
+            "neighborhood":"suburban",
+            "state":"Texas"
+            },
+            "agent": {
+                "name": "Erika Tillman",
+                "shortDescription": "LA luxury market specialist with a passion for unique properties.",
+                "image": "/images/a-1.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" }
+                ]
+            ],
+            "baths": 4,
+            "beds": 4,
+            "category": "sales",
+            "cityName": "Dallas",
+            "description": "Sophisticated apartment with elegant design and top-notch amenities.",
+            "featured": true,
+            "id": "9",
+            "image": "/images/p-9.jpg",
+            "name": "Colorful Little Apartment",
+            "price": 789900,
+            "type": "residential",
+            "squareFootage": 2100,
+              "videoLink":"https://www.youtube.com/embed/7EHnQ0VM4KY?si=LK6t1Zy_zvvc8x1V",
+              "date":"March 10,2024"
+            
+        },
+        {
+            "address": {
+                "city": "Houston",
+                "street": "369 Park Lane",
+                "zip": "W1K 7TL" ,
+                "neighborhood":"suburban",
+                "state":"Texas"
+            },
+            "agent": {
+                "name": "Michael Rutter",
+                "shortDescription": "Specializes in high-end apartments in London’s most exclusive areas.",
+                "image": "/images/a-2.jpg"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    
+                    { "img": "/Images/inner-pages-images/gym.png", "text": "Gym" }
+                ]
+            ],
+            "baths": 3,
+            "beds": 3,
+            "category": "sales",
+            "cityName": "Houston",
+            "description": "Elegant property with a classic touch in a prestigious location.",
+            "featured": true,
+            "id": "10",
+            "image": "/images/house-1.jpg",
+            "name": "Elegant Apartment",
+            "price": 1200000,
+            "type": "residential",
+            "squareFootage": 2400,
+            "videoLink":"https://www.youtube.com/embed/mgulkcaPMCY?si=Vx8IuL4n41mCNnJf",
+         "date":"May 22,2024"
+        },
+        {
+            "address": {
+                "city": "San Francisco",
+                "street": "789 Sunset Blvd",
+                "zip": "94107",
+                 "neighborhood":"suburban",
+                   "state":"Texas"
+            },
+            "agent": {
+                "name": "Michael Rutter",
+                "shortDescription": "SF real estate expert with a focus on modern luxury homes.",
+                "image": "/images/a-3.jpg",
+            "neighborhood":"suburban",
+            "state":"Texas"
+            },
+            "amenitiesList": [
+                [
+                    { "img": "/Images/inner-pages-images/wifi.png", "text": "Internet" },
+                    { "img": "/Images/inner-pages-images/pool.png", "text": "Pool" },
+                    { "img": "/Images/inner-pages-images/fire.png", "text": "Fireplace" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/garage.png", "text": "Garage" },
+                    { "img": "/Images/inner-pages-images/elevator.png", "text": "Elevator" },
+                    { "img": "/Images/inner-pages-images/balcony.png", "text": "Balcony" }
+                ],
+                [
+                    { "img": "/Images/inner-pages-images/air.png", "text": "Air Conditioning" }
+                    
+                ]
+            ],
+            "baths": 5,
+            "beds": 6,
+            "category": "sales",
+            "cityName": "San Francisco",
+            "description": "Modern luxury villa with stunning views and premium finishes.",
+            "featured": true,
+            "id": "11",
+            "image": "/images/house-6.jpg",
+            "name": "Luxury Villa",
+            "price": 180000,
+            "type": "residential",
+            "squareFootage": 5000,
+            "videoLink":"https://www.youtube.com/embed/ec_fXMrD7Ow?si=x4eBKMrNmSrnFYrn",
+            "date":"August 25,2024"
+        }
+    ]
+}
+

@@ -1,0 +1,9 @@
+[
+    { "href": "/home", "title": "Home" },
+    { "href": "/about", "title": "About" },
+    { "href": "/properties", "title": "Properties" },
+    { "href": "/ourAgent", "title": "Our Agents" },
+    { "href": "/blogs", "title": "Blog" },
+    { "href": "/contact_us", "title": "Contact Us" }
+  ]
+  

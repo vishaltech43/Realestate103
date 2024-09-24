@@ -1,0 +1,99 @@
+{
+    "agents": [
+    {
+        "id":"1",
+        "name":"Michael Rutter",
+        "type":"Buying Agent",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"michael.rutter",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag1.jpg",
+        "properties":{
+            "p":"dsdf"
+        }
+        
+    },
+    {
+        "id":"2",
+        "name":"Michael Suri",
+        "type":"Real Estate Broker",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"michael.suri",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag2.jpg"
+    },
+    {
+        "id":"3",
+        "name":"Maria Barlow",
+        "type":"Real Estate Broker",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"maria.barlow",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag3.jpg"
+    },
+    {
+        "id":"4",
+        "name":"Melvin Blackwell",
+        "type":"Real Estate Broker",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"melvin.blackwell",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag4.jpg"
+    },
+    {
+        "id":"5",
+        "name":"Janet Richmond",
+        "type":"Buying Agent",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"janet.richmond",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag5.jpg"
+    },
+    {
+        "id":"6",
+        "name":"Scott Goodwin",
+        "type":"Selling Agent",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"scott.goodwin",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag6.jpg"
+    },
+    {
+        "id":"7",
+        "name":"Alayna becker",
+        "type":"Real Estate Broker",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"scott.goodwin",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag7.jpg"
+    },
+    {
+        "id":"8",
+        "name":"Rust Cohle",
+        "type":"Selling Agent",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"rust.cohle",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag8.jpg"
+    },
+    {
+        "id":"9",
+        "name":"Erika Tillman",
+        "type":"Selling Agent",
+        "mobileNo":"1234567890",
+        "whatsupNo":"9876543210",
+        "skype":"erika.tillman",
+        "aboutMe":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae error incidunt asperiores sed saepe quisquam repudiandae dolorum corrupti cum, voluptatum adipisci ex similique est modi necessitatibus sequi perspiciatis placeat.",
+        "image":"/images/ag9.jpg"
+    }
+    
+        ]
+    }
