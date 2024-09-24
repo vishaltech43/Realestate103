@@ -8,7 +8,7 @@ const Mylisting = ({name}) => {
 
   
     return (
-      <section className="text-gray-600 body-font  pb-0 mx-4 sm:mx-6 md:mx-10 lg:mx-[80px] ">
+      <section className="text-gray-600 body-font  pb-0 mx-4 sm:mx-8 md:mx-10 lg:mx-[80px] ">
         <div className="container px-4 md:px-6 py-24 mx-auto">
           <h1 className="text-gray-900 text-4xl md:text-4xl lg:text-5xl font-bold font-serif text-center pb-10">
            My Listings
