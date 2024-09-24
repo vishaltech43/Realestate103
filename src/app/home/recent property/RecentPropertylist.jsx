@@ -1,5 +1,5 @@
 import React from 'react';
-import PropertyCard from './PropertyCard';
+import PropertyCards from '../../../components/property/PropertyCards';
 import data from '../../../app/properties/propertiesData.json';
 
 const RecentPropertylist = () => {
@@ -17,17 +17,21 @@ const RecentPropertylist = () => {
           </h1>
           <div className="flex flex-wrap justify-center">
             {recentProperties.map((property) => (
-              <PropertyCard
-                key={property.id}
-                id={property.id}
-                image={property.image}
-                price={property.price}
-                title={property.name}
-                address={`${property.address.street}, ${property.address.city}`}
-                beds={property.beds}
-                baths={property.baths}
-                sqft={property.squareFootage}
-              />
+              <PropertyCards
+              key={property.id}
+              image={property.image}
+              price={property.price}
+              title={property.name}
+              address={`${property.address?.street || "N/A"}, ${
+                property.address?.city || "N/A"
+              }`}
+              beds={property.beds}
+              baths={property.baths}
+              sqft={property.squareFootage}
+              category={property.category}
+              id={property.id}
+              featured={property.featured}
+            />
             ))}
           </div>
         </div>

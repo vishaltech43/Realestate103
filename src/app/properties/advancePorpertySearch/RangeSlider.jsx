@@ -8,7 +8,7 @@ function valuetext(value) {
 
 export default function RangeSlider({ value, onChange }) {
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', padding:"0px"}}>
       <h1 className="text-lg md:text-xl">Price range: ${value[0]} to ${value[1]}</h1>
       <Slider
         getAriaLabel={() => "Price range"}
@@ -21,10 +21,10 @@ export default function RangeSlider({ value, onChange }) {
         step={100}
         sx={{
           width: '100%',
-          marginTop: 2,
+         
           '& .MuiSlider-thumb': {
-            height: 24,
-            width: 24,
+            height: 20,
+            width: 20,
             '&:hover, &.Mui-focusVisible': {
               boxShadow: 'inherit',
             },

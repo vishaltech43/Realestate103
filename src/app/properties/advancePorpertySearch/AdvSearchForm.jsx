@@ -63,7 +63,7 @@ const AdvSearchForm = () => {
   return (
     <div>
       <div className='bg-blue-200 p-4'>
-        <form className="container mx-auto px-5 md:px-20 py-8" onSubmit={handleFilter}>
+        <form className="container mx-auto px-5 md:px-10 py-8" onSubmit={handleFilter}>
           <h2 className="text-xl font-bold mb-4">Advanced Search</h2>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mb-4">

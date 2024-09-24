@@ -77,12 +77,12 @@ const PropertiesPage = ({ properties }) => {
     <div className="container mx-auto">
 
 
-    <div className=" pt-6 px-5 md:px-20 pb-6 ">
-      <h1 className="font-bold text-4xl font-serif mt-20 mx-4 sm:mx-20">
+    <div className=" pt-6 px-5 md:px-9 pb-6 ">
+      <h1 className="font-bold text-4xl font-serif mt-20 ">
         All Properties
       </h1>
 
-      <div className="bg-white mx-2 sm:mx-3 lg:mx-12 rounded-2xl border mt-8 mb-8 border-gray-400">
+      <div className="bg-white  rounded-2xl border mt-8 mb-8 border-gray-400">
         <div className="flex flex-wrap p-2 w-full md:w-3/5">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/6 mb-4 sm:mb-0">
             <select
