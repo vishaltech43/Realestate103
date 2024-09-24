@@ -2,7 +2,7 @@ import React from 'react';
 
 const GoogleMap = () => {
   const sectionStyle = {
-    backgroundImage: "url('  /images/address-map.jpg')",
+    backgroundImage: "url('/Images/address-map.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
    
