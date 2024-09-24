@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 import PostCard from "../BlogsList/PostCard";
 import postData from "../postsData.json";
 import ReactPaginate from "react-paginate";
-import './blogListPagination.css'
+import Image from 'next/image'; 
+import './blogListPagination.css';
 
 const BlogList = ({ searchedBlog }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -16,9 +17,11 @@ const BlogList = ({ searchedBlog }) => {
     (currentPage - 1) * postsPerPage,
     currentPage * postsPerPage
   );
+
   const handlePageChange = (selectedPage) => {
     setCurrentPage(selectedPage.selected + 1); 
   };
+
   useEffect(() => {
     setLoading(true); 
     const timer = setTimeout(() => {
@@ -97,35 +100,39 @@ const BlogList = ({ searchedBlog }) => {
           </div>
         )}
        
-         {!loading && totalPages > 1 && searchedBlog !== "NoSearch" &&  (
-        <ReactPaginate
-          pageCount={totalPages}
-          onPageChange={handlePageChange}
-          containerClassName="flex justify-center items-center mb-[100px] mt-24"
-          pageClassName="px-6 py-3 border text-[#1c1c82] text-2xl border border-gray-400"
-          pageLinkClassName="cursor-pointer"
-          activeClassName="activePage" 
-          disabledClassName="disabledPage" 
-          previousLabel={
-            <div className="px-6 py-4 rounded-tl-2xl rounded-bl-2xl border text-[#1c1c82] border-gray-400">
-              <img
-                src="./images/icons8-arrow-50.png"
-                alt="Previous"
-                className="h-6 w-6 rotate-180"
-              />
-            </div>
-          }
-          nextLabel={
-            <div className="px-6 py-4 border rounded-tr-2xl rounded-br-2xl text-[#1c1c82] border-gray-400">
-              <img
-                src="./images/icons8-arrow-50.png"
-                alt="Next"
-                className="h-6 w-6"
-              />
-            </div>
-          }
-        />
-      )}
+        {!loading && totalPages > 1 && searchedBlog !== "NoSearch" &&  (
+          <ReactPaginate
+            pageCount={totalPages}
+            onPageChange={handlePageChange}
+            containerClassName="flex justify-center items-center mb-[100px] mt-24"
+            pageClassName="px-6 py-3 border text-[#1c1c82] text-2xl border border-gray-400"
+            pageLinkClassName="cursor-pointer"
+            activeClassName="activePage" 
+            disabledClassName="disabledPage" 
+            previousLabel={
+              <div className="px-6 py-4 rounded-tl-2xl rounded-bl-2xl border text-[#1c1c82] border-gray-400">
+                <Image
+                  src="/images/icons8-arrow-50.png" 
+                  alt="Previous"
+                  className="h-6 w-6 rotate-180"
+                  width={24} 
+                  height={24}
+                />
+              </div>
+            }
+            nextLabel={
+              <div className="px-6 py-4 border rounded-tr-2xl rounded-br-2xl text-[#1c1c82] border-gray-400">
+                <Image
+                  src="/images/icons8-arrow-50.png" 
+                  alt="Next"
+                  className="h-6 w-6"
+                  width={24} 
+                  height={24} 
+                />
+              </div>
+            }
+          />
+        )}
       </div>
     </>
   );

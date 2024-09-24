@@ -1,8 +1,8 @@
 import React from "react";
-
+import Image from "next/image";
 const OurWorkOverview = () => {
   const sectionStyle = {
-    backgroundImage: "url('/images/img-3.png')",
+    backgroundImage: 'url("/images/img-3.png")',
 
     backgroundRepeat: "no-repeat",
     overflow: "hidden",
@@ -13,10 +13,13 @@ const OurWorkOverview = () => {
       <section class=" text-gray-600 body-font py-24">
         <div  class=" mx-auto flex  md:flex-row flex-col items-center gap-20 justify-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              class="object-cover object-center rounded"
+          <Image
+              className="object-cover object-center  rounded"
               alt="hero"
               src="/images/img-2.png"
+              layout="responsive" 
+              width={500} 
+              height={300} 
             />
           </div>
 
@@ -65,3 +68,5 @@ const OurWorkOverview = () => {
 };
 
 export default OurWorkOverview;
+
+

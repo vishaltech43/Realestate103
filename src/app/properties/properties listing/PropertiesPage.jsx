@@ -77,7 +77,7 @@ const PropertiesPage = ({ properties }) => {
     <div className="container mx-auto">
 
 
-    <div className=" pt-6 pb-6 bg-gray-100 ">
+    <div className=" pt-6 px-5 md:px-20 pb-6 ">
       <h1 className="font-bold text-4xl font-serif mt-20 mx-4 sm:mx-20">
         All Properties
       </h1>
@@ -167,7 +167,7 @@ const PropertiesPage = ({ properties }) => {
         </div>
       </div>
 
-      <div className="flex flex-wrap -m-4 mx-2 sm:mx-10 md:mx-[1rem] mt-5">
+      <div className="flex flex-wrap -m-4 mx-2 sm:mx-5 md:mx-[1rem] mt-5">
         {currentProperties.length > 0 ? (
           currentProperties.map((property) => (
             <PropertyCards

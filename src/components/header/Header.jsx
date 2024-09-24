@@ -37,14 +37,14 @@ const Header = () => {
   };
 
   return (
-    <header className="relative z-50 text-gray-600 bg-gray-100 body-font md:px-12 py-2 mx-10">
+    <header className="relative z-50 text-gray-600  body-font md:px-12 py-2 mx-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center px-12">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img src={navLogo.logo} alt="logo" className="h-6" />
         </a>
 
         <button
-          className="inline-flex md:hidden ml-auto items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          className="inline-flex md:hidden ml-auto items-center  border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           onClick={toggleMenu}
         >
           <svg
@@ -62,7 +62,7 @@ const Header = () => {
 
         <nav
           className={`${
-            isMenuOpen ? "block" : "hidden"
+            isMenuOpen ? "hidden" : "hidden"
           } md:flex flex-col md:flex-row md:ml-auto items-center text-base justify-center w-full md:w-auto`}
         >
           {navLinks.map(({ href, title }) => (
@@ -121,8 +121,8 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-gray-100">
-          <nav className="flex flex-col items-center space-y-2 justify-center text-base pb-10 bg-gray-200">
+        <div className="md:hidden ">
+          <nav className="flex flex-col items-center space-y-2 justify-center text-base pb-10 ">
             {navLinks.map(({ href, title }) => (
               <Link
                 key={href}

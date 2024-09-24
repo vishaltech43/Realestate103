@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import CommonBtn from '../../../components/CommonBtn';
+import Image from 'next/image';
 
 const Video = () => {
     const [showVideo, setShowVideo] = useState(false);
@@ -34,9 +35,9 @@ const Video = () => {
                     </h1>
                     <button className="flex ml-auto">
                         <CommonBtn
-                            px={'px-12px'}
-                            mdpx={'md:px-[40px]'}
-                            mdp={'p-4'}
+                            px={'px-8px md:px-12'}
+                            mdpx={'md:px-[40px] px-[30px]'}
+                            mdp={'p-2 md:p-4'}
                             mdtext={'md:text-[15px]'}
                             name={'CONTACT US'}
                         />
@@ -48,7 +49,7 @@ const Video = () => {
                         aliquid, ex tempore.
                     </p>
                 </div>
-                
+
                 <div className='mx-4 sm:mx-6 md:mx-10 lg:mx-[170px] py-6 mt-6'>
                     <div
                         className='mt-6 w-full rounded-2xl h-[10rem] md:h-[32rem] container mx-auto'
@@ -56,7 +57,13 @@ const Video = () => {
                     >
                         {!showVideo ? (
                             <div className='flex items-center justify-center h-full w-full absolute top-0 left-0 cursor-pointer' onClick={() => setShowVideo(true)}>
-                                <img src='/images/play (1).png' alt="play" className='h-[60px] md:h-[80px]' />
+                                <Image
+                                    src='/images/play (1).png'
+                                    alt="play"
+                                    className='h-[60px] md:h-[80px]'
+                                    width={80} 
+                                    height={80} 
+                                />
                             </div>
                         ) : (
                             <iframe
