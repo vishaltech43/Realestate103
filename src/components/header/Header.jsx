@@ -39,12 +39,13 @@ const Header = () => {
   return (
     <header className="relative z-50 text-gray-600  body-font md:px-12 py-2 mx-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center px-12">
+        <div className="flex gap-40">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img src={navLogo.logo} alt="logo" className="h-6" />
         </a>
 
         <button
-          className="inline-flex md:hidden ml-auto items-center  border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          className="inline-flex md:hidden items-center  border-0  px-3 focus:outline-none hover:bg-gray-200 rounded text-base  "
           onClick={toggleMenu}
         >
           <svg
@@ -59,6 +60,8 @@ const Header = () => {
             <path d="M4 6h16M4 12h16m-7 6h7"></path>
           </svg>
         </button>
+        </div>
+     
 
         <nav
           className={`${
