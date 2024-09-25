@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Work_values = () => {
   return (
     <div className='bg-[#f9faff]'>
-      <section className="text-gray-600 body-font overflow-hidden mx-auto px-0 md:px-10 w-5/6">
+      <section className="text-gray-600 body-font overflow-hidden mx-auto px-0 md:px-5 w-5/6">
         <div className="pt-28">
           <div className="flex flex-wrap">
             <Image 

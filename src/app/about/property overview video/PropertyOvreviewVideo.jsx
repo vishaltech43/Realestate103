@@ -24,8 +24,8 @@ const Video = () => {
     };
 
     return (
-        <div className='pt-20 mx-auto bg-[#f9faff]'>
-            <div style={sectionStyle} className='mb-12'>
+        <div className='pt-20 mx-auto bg-[#f9faff] pb-5 md:pb-10'>
+            <div style={sectionStyle} className='pb-12'>
                 <div className='w-full container max-w-4xl mx-auto pt-[0px] md:pt-[60px] px-2  sm:px-6 lg:px-20'>
                     <h1 className='text-black text-[18px] sm:text-[20px] lg:text-[21px] font-serif font-bold'>
                         Contrary to popular belief, Lorem Ipsum

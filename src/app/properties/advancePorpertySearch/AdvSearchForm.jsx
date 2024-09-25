@@ -62,7 +62,7 @@ const AdvSearchForm = () => {
 
   return (
     <div>
-      <div className='bg-blue-200 p-4'>
+      <div className='bg-blue-200 p-4 px-10'>
         <form className="container mx-auto px-5 md:px-10 py-8" onSubmit={handleFilter}>
           <h2 className="text-xl font-bold mb-4">Advanced Search</h2>
 
@@ -172,7 +172,7 @@ const AdvSearchForm = () => {
 
       </div>
 
-      <div className='bg-white'>
+      <div className='bg-white px-10'>
         <PropertiesPage properties={propertiesToShow} />
       </div>
     </div>
