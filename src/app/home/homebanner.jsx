@@ -12,7 +12,7 @@ const Herobanner = ({ image, line1text, line2text, height }) => {
     <div>
       <section 
         style={sectionStyle} 
-        className={`text-white ${height} text-center py-42 flex flex-col items-center justify-center bg-gray-100`}
+        className={`text-white ${height} text-center py-42 flex flex-col px-2 items-center justify-center bg-gray-100`}
       >
         <h1 className="md:text-6xl text-3xl mb-1 font-serif text-blue-950 bg-white p-10 mx-2 rounded-bl-lg rounded-tr-lg md:p-5 pt-8 pb-4">
           {line1text}

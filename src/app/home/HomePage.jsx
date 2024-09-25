@@ -13,7 +13,7 @@ const HomePage = () => {
       <div >
         <Herobanner image={'/Images/house-12.jpg'} line1text={'Your dream home is waiting.'} line2text={'Come on in.'} height={'h-[44rem]'}/>
         <BasicDetails/>
-        <GetstartedBanner image={'/Images/interior-1026447_1920.jpg'} line1text={'Release your dreams'} line2text={'Affordable & Attractive Homes'} height={'h-[35rem]'}/>
+        <GetstartedBanner image={'/Images/interior-1026447_1920.jpg'} line1text={'Release your dreams'} line2text={'Affordable & Attractive Homes'} height={'h-[30rem]'}/>
         <RecentPropertylist/>
         <SourceFormBanner/>
         <Services/>
