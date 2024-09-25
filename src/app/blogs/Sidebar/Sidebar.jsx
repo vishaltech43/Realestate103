@@ -20,7 +20,7 @@ const Sidebar = ({ searchedBlogs }) => {
 
 
   return (
-    <aside className="w-full md:w-2/5 mt-10 md:mt-0">
+    <aside className="w-full md:w-2/5 mt-10  md:mt-0">
       <BlogSearch searchDdata={searchDdata} />
       <FeaturedProperties />
       <RecentListedProperty />
