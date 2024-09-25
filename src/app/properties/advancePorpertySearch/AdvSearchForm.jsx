@@ -172,7 +172,7 @@ const AdvSearchForm = () => {
 
       </div>
 
-      <div className='bg-white px-5 md:px-10'>
+      <div className='bg-white px-3 md:px-10'>
         <PropertiesPage properties={propertiesToShow} />
       </div>
     </div>
