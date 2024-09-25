@@ -33,6 +33,7 @@ const Header = () => {
   const handleLogout = () => {
     localStorage.removeItem("user");
     dispatch(logout());
+    alert("you have successfully logouted...");
     setActiveLink("/home");
   };
 
@@ -183,3 +184,4 @@ const Header = () => {
 };
 
 export default Header;
+

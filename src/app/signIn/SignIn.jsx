@@ -52,6 +52,7 @@ const SignIn = () => {
 
       if (keepMeLoggedIn) {
         localStorage.setItem('user', JSON.stringify(user));
+        
       } else {
         localStorage.removeItem('user');
       }
