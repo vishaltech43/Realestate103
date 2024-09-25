@@ -7,7 +7,7 @@ const DealOfDay = () => {
 
   return (
     <div>
-      <section className="text-gray-600 bg-gray-100 body-font overflow-hidden px-10">
+      <section className="text-gray-600 bg-gray-100 body-font overflow-hidden px-8">
         <h1 className="text-gray-900 md:text-[50px] text-center text-[35px] font-bold font-serif">
           Deal Of The Day
         </h1>
