@@ -37,12 +37,12 @@ const Testimonial = () => {
                 className="cotainer-fluid text-white flex flex-col bg-[#f9faff]"
             >
                 <section className="text-gray-600 body-font px-5">
-                    <div className="container px-5 md:px-32 mx-auto">
-                        <h1 className="text-[14px] font-medium title-font text-gray-900">TESTIMONIAL</h1>
-                        <h1 className="text-[27px] font-bold title-font text-gray-900 font-serif mb-12 pb-[60px]">What Our Client Say?</h1>
+                    <div className="container px-3 md:px-32 mx-auto">
+                        <h1 className="text-[14px] font-medium title-font text-gray-900 pt-5">TESTIMONIAL</h1>
+                        <h1 className="text-[27px] font-bold title-font text-gray-900 font-serif mb-10 pb-[50px]">What Our Client Say?</h1>
                         <div className="flex flex-wrap">
                             <div className="p-2 md:w-2/3 w-full bg-white border-gray-400">
-                                <div className="h-full pt-[10px] md:pt-[30px] pl-[75px] pr-[35px] rounded">
+                                <div className="h-full pt-[10px] md:pt-[30px] pl-[35px] md:pl-[75px] pr-[35px] rounded">
                                     <div className={`transition-transform duration-300 ${animation}`}>
                                         {click ? (
                                             <div>
