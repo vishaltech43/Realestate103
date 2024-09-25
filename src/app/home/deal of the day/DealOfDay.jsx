@@ -43,7 +43,7 @@ const DealOfDay = () => {
               <p className="leading-relaxed">
                 {deal.description}
               </p>
-              <div className="flex items-center flex-wrap pt-4 space-x-2">
+              <div className="flex items-center  pt-4">
   <div className="flex items-center pr-5">
     <img
       src="/Images/bed.png"
@@ -77,7 +77,6 @@ const DealOfDay = () => {
     </span>
   </div>
 </div>
-
               <div className="mt-16">
                 <GetstartedBtn px={'px-12px'} mdpx={'md:px-[60px]'} mdp={'p-5'} mdtext={'md:text-[20px]'} name={'MORE'}/>
               </div>
