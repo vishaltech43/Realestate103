@@ -43,40 +43,41 @@ const DealOfDay = () => {
               <p className="leading-relaxed">
                 {deal.description}
               </p>
-              <div className="flex items-center flex-wrap pt-4 space-x-2 sm:space-x-2 md:space-x-3 pt-5">
-                <div className="flex items-center pr-5">
-                  <img
-                    src="/Images/bed.png"
-                    className="w-6 sm:w-7 md:w-8"
-                    alt="Bed"
-                  />
-                  <span className="ml-2 text-sm sm:text-base text-[#20208a] md:text-lg">
-                    {deal.bedCount}
-                  </span>
-                </div>
-                <div className="w-[0.1%] h-7 bg-gray-300"></div>
-                <div className="flex items-center px-6">
-                  <img
-                    src="/Images/bath.png"
-                    className="w-6 sm:w-7 md:w-8"
-                    alt="Bath"
-                  />
-                  <span className="ml-2 text-sm sm:text-base md:text-lg text-[#20208a] ">
-                    {deal.bathCount}
-                  </span>
-                </div>
-                <div className="w-[0.1%] h-7 bg-gray-300"></div>
-                <div className="flex items-center px-4">
-                  <img
-                    src="/Images/sqft.png"
-                    className="w-6 sm:w-7 md:w-8"
-                    alt="Sqft"
-                  />
-                  <span className="ml-2 text-sm sm:text-base md:text-lg text-[#20208a] ">
-                    {deal.sqft}
-                  </span>
-                </div>
-              </div>
+              <div className="flex items-center flex-wrap pt-4 space-x-2">
+  <div className="flex items-center pr-5">
+    <img
+      src="/Images/bed.png"
+      className="w-6 sm:w-7 md:w-8"
+      alt="Bed"
+    />
+    <span className="ml-2 text-sm sm:text-base text-[#20208a] md:text-lg">
+      {deal.bedCount}
+    </span>
+  </div>
+  <div className="w-[1px] h-7 bg-gray-300"></div>
+  <div className="flex items-center px-5">
+    <img
+      src="/Images/bath.png"
+      className="w-6 sm:w-7 md:w-8"
+      alt="Bath"
+    />
+    <span className="ml-2 text-sm sm:text-base md:text-lg text-[#20208a]">
+      {deal.bathCount}
+    </span>
+  </div>
+  <div className="w-[1px] h-7 bg-gray-300"></div>
+  <div className="flex items-center px-5">
+    <img
+      src="/Images/sqft.png"
+      className="w-6 sm:w-7 md:w-8"
+      alt="Sqft"
+    />
+    <span className="ml-2 text-sm sm:text-base md:text-lg text-[#20208a]">
+      {deal.sqft}
+    </span>
+  </div>
+</div>
+
               <div className="mt-16">
                 <GetstartedBtn px={'px-12px'} mdpx={'md:px-[60px]'} mdp={'p-5'} mdtext={'md:text-[20px]'} name={'MORE'}/>
               </div>
