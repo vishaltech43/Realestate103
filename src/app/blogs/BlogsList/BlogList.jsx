@@ -5,15 +5,27 @@ import postData from "../postsData.json";
 import ReactPaginate from "react-paginate";
 import Image from 'next/image'; 
 import './blogListPagination.css';
+import { FormControl,InputLabel,Select,MenuItem, Box } from "@mui/material";
 
 const BlogList = ({ searchedBlog }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false); 
-  const postsPerPage = 9;
+  const [selectedType, setSelectedType] = useState('All');
+  const [sortBydate, setSortBydate] = useState('Recent');
+  const [postsPerPage, setpostsPerPage] = useState(9); 
+  
 
   const toShow = searchedBlog === "NoSearch" ? [] : (searchedBlog.length < 1 ? postData : searchedBlog);
-  const totalPages = Math.ceil(toShow.length / postsPerPage);
-  const currentPosts = toShow.slice(
+  const filteredPosts = selectedType === 'All' ? toShow : toShow.filter(post => post.type === selectedType);
+  const sortedPosts = [...filteredPosts].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    if (sortBydate === 'Recent') return dateB - dateA; 
+    if (sortBydate === 'Oldest') return dateA - dateB; 
+    return 0; 
+  });
+  const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
+  const currentPosts = sortedPosts.slice(
     (currentPage - 1) * postsPerPage,
     currentPage * postsPerPage
   );
@@ -27,6 +39,7 @@ const BlogList = ({ searchedBlog }) => {
     const timer = setTimeout(() => {
       setLoading(false); 
       setCurrentPage(1); 
+      setSelectedType('All');
     }, 1000);
 
     return () => clearTimeout(timer); 
@@ -48,6 +61,43 @@ const BlogList = ({ searchedBlog }) => {
     <>
       <div className="lg:w-6/6 w-full hidden lg:block">
         <h3 className="text-[30px] font-bold mb-10 font-serif">Latest Posts</h3>
+        <FormControl variant="outlined" className="mb-4 w-1/6 ">
+          <InputLabel>Select Type</InputLabel>
+          <Select
+            value={selectedType}
+            onChange={(e) => setSelectedType(e.target.value)}
+            label="Filter by Type"
+          >
+            <MenuItem value="All">All</MenuItem>
+            <MenuItem value="Selling">Selling</MenuItem>
+            <MenuItem value="Buying">Buying</MenuItem>
+            <MenuItem value="Market">Market</MenuItem>
+            <MenuItem value="Investing">Investing</MenuItem>
+          </Select>
+        </FormControl>
+        <FormControl variant="outlined" className="mb-4 w-1/5 ml-5">
+          <InputLabel>Sort By: </InputLabel>
+          <Select
+            value={sortBydate}
+            onChange={(e) => setSortBydate(e.target.value)}
+            label="Sort by Date"
+          >
+            <MenuItem value="Recent">Most Recent</MenuItem>
+            <MenuItem value="Oldest">Oldest</MenuItem>
+          </Select>
+        </FormControl>
+        <FormControl variant="outlined" className="mb-4 w-1/5 ml-5">
+          <InputLabel>Post per page: </InputLabel>
+          <Select
+            value={postsPerPage}
+            onChange={(e) => setpostsPerPage(e.target.value)}
+            label="Sort by Date"
+          >
+              <MenuItem value={6}>6 Posts</MenuItem>
+              <MenuItem value={9}>9 Posts</MenuItem>
+          </Select>
+        </FormControl>
+     
         {loading ? (
           <div className="flex flex-col items-center justify-center">
             <div role="status">
@@ -139,3 +189,5 @@ const BlogList = ({ searchedBlog }) => {
 };
 
 export default BlogList;
+
+
